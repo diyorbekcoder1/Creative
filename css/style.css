@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+header {
+    height: 880px;
+    background: url('../images/bagraunt_01.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+header .row nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header .row nav .menu ul {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .row nav .menu ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header .row nav .menu ul li a:hover {
+    padding-bottom: 30px;
+    width: 130%;
+    border-bottom: 7px solid #ffffff;
+}
+
+header .row nav .menu .img-oo {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    transition: 500ms;
+}
+
+header .row nav .menu .img-oo img:hover {
+    transform: scale(1.5);
+    transition: 500ms;
+}
+
+header .shadow {
+    width: 100%;
+    height: 70px;
+    padding-bottom: 40px;
+    box-shadow: 0 1px 1px #7f7f7f
+}
+
+header .row .header-text h1 {
+    color: #f5f5f5;
+    font-size: 152px;
+    text-align: center;
+    padding-top: 273px;
+    font-weight: 700;
+
+}
+
+header .row .header-text p {
+    color: #11749e;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+header .row .header-text .header-text2 h6 {
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 110px;
+}
+
+header .row .header-text .header-text2 img {
+    padding: 20px 522px;
+}
+
+section {
+    height: 735px;
+    background: url('../images/section_02.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .row .img-txt h3 {
+    color: #ffffff;
+    font-size: 35.5px;
+    text-align: center;
+    padding-top: 170px;
+}
+
+section .row .new-img {
+    padding-left: 40px;
+    padding-top: 145px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section .row .section-img img {
+    padding-left: 70px;
+    padding-bottom: 25PX;
+}
+
+section .row .section-img p {
+    width: 270px;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 35PX;
+    text-align: center;
+}
+
+section .row .section-img h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    width: 50%;
+}
+
+.card-2 {
+    width: 50%;
+}
+
+.image .card-1 {
+
+    height: 400px;
+    background: #222222;
+}
+
+.image .card-2 {
+    background: url('../images/rasmlar-223_03.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image .card-2:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.image .card-1 .text {
+    padding: 85px 100px 80px;
+
+}
+
+.image .card-1 .text h5 {
+    color: #898989;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.image .card-1 .text h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+
+.image .card-1 .text p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+
+.image .card-1 .text span {
+    color: #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-3 {
+    width: 50%;
+}
+
+.card-4 {
+    width: 50%;
+}
+
+.image .card-4 {
+
+    height: 400px;
+    background: #f3f3f3;
+}
+
+.image .card-3 {
+    background: url('../images/672_04.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image .card-3:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.image .card-4 .text-2 {
+    padding: 85px 100px 80px;
+
+}
+
+.image .card-4 .text-2 h5 {
+    color: #898989;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.image .card-4 .text-2 h2 {
+    color: #222222;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+
+.image .card-4 .text-2 p {
+    color: #222222;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+
+.image .card-4 .text-2 span {
+
+    color: #222222;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog {
+    height: 410px;
+    background: url('../images/blog.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.blog .txt {
+    text-align: center;
+}
+
+.blog .txt h2 {
+    color: #222222;
+    font-size: 38px;
+    padding-top: 180px;
+}
+
+.blog .txt P {
+    color: #222222;
+    font-size: 30PX;
+    padding-top: 100px;
+}
+
+.blog-2 {
+    height: 610px;
+    margin: auto;
+}
+
+.blog-2 .image .blog-img img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.blog-2 .image .blog-img p {
+    color: #222222;
+    font-size: 15px;
+    width: 240px;
+    text-align: center;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-top: 30PX;
+}
+
+.blog-2 .image .blog-img h6 {
+    color: #11749e;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 45PX;
+
+
+}
+
+.blog-2 .image {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    height: 360px;
+    background-color: #11749e;
+}
+
+.footer-text .footer-img {
+    padding-top: 130px;
+}
+
+.footer-text .footer-img {
+    display: flex;
+}
+
+.footer-text .footer-img p {
+    width: 440px;
+    font-size: 15px;
+    /*  padding-left: 35px; */
+}
+
+.footer-text .box {
+    width: 1170px;
+    display: flex;
+}
+
+.footer-text .box .footer-img {
+    padding-right: 85px;
+}
+
+.dog {
+    height: 840px;
+    background: url('../feature\ yangi_bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dog .dog-box h3 {
+    padding-top: 230px;
+    font-size: 25px;
+    color: white;
+    font-weight: 600px;
+
+}
+
+.dog .dog-box p {
+    width: 470px;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.dog .dog-box .root-1 button {
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+    width: 370px;
+    height: 40px;
+    background-color: #11749e;
+    font-size: 15px;
+    border: none;
+
+}
+
+.dog .dog-box .root button {
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+    width: 400px;
+    background-color: #11749e;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+
+}
+
+.dog .dog-box .root-2 button {
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+    width: 430px;
+    height: 40px;
+    background-color: #11749e;
+    font-size: 15px;
+    border: none;
+}
+
+.dog .dog-box .root-box {
+
+    line-height: 80px;
+
+}
+
+.dog .box {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.dog .box .img img {
+    padding: 100px 50px 0 0;
+}
+
+.team {
+    height: 410px;
+    background: url('../team.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.team .txt {
+    text-align: center;
+}
+
+.team .txt h2 {
+    color: #222222;
+    font-size: 38px;
+    padding-top: 180px;
+}
+
+.team .txt P {
+    color: #222222;
+    font-size: 30PX;
+    padding-top: 100px;
+}
+
+.users {
+    width: 100%;
+    height: 70px;
+}
+
+.users .user {
+    width: 230px;
+    height: 395px;
+    position: relative;
+    background: white;
+}
+
+.users .user:hover {
+    opacity: 0.2;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user img {
+    width: 230px;
+    height: 350px;
+}
+
+.user .txt {
+    position: absolute;
+    width: 140px;
+    text-align: center;
+    left: 40px;
+    bottom: 20px;
+    height: 35px;
+    padding: 10px 5px;
+    background: white;
+}
+
+.user .txt h4 {
+    color: #11749e;
+    font-weight: 700;
+}
+
+.project {
+    margin-top: 400px;
+    height: 900px;
+    background: url('../images/images/images/fon-hhaaaa_02.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project .txt {
+    text-align: center;
+}
+
+.project .txt h2 {
+    color: #ffffff;
+    font-size: 38px;
+    padding-top: 199px;
+}
+
+.input-box .text {
+    right: 235px;
+    position: relative;
+
+}
+
+.middle-1{
+    position: relative;
+}
+.middle-1 .submit{
+    position: absolute;
+    left: 470px;
+   
+    bottom: 120px;
+}
+
+.middle-1 .submit a{
+    
+    padding: 15px 65px;
+    border: 1px solid #11749e;
+    color: #ffffff;
+    background-color: #11749e;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.input-box .text input {
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    border-color: #ffffff;
+
+    bottom: 450px;
+
+    padding: 15px 50px;
+    background: none;
+}
+
+.input-box .text ::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.input-box .boxs {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-box .boxs-now {
+right: 35px;
+    position: relative;
+}
+
+
+
+
+.input-box .boxs-now textarea {
+    position: absolute;
+    width: 1110px;
+    height: 150px;
+    border-color: #ffffff;
+
+    bottom: 200px;
+
+    padding: 15px 30px;
+    background: none;
+}
+
+.input-box .boxs-now ::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.maps .maps-box iframe{
+    width: 1270px;
+    height: 350px;
+}
+.items{
+    height: 150px;
+    background-color: #222222;
+   
+}
+.items .foot{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.items .foot h5{
+    color: #ffffffa4;
+    font-size: 15px;
+
+}
+.items .foot .right p{
+    color: #ffffffa4;
+    font-size: 15px;
+}
+
